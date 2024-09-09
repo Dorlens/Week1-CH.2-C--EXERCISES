@@ -14,7 +14,7 @@ class HoursAndMinutes
             int hours = minutes / numOfMinHour;
             int remindingMin = minutes % numOfMinHour;
 
-            WriteLine( "{0} hours and {0} minutes" ,hours , remindingMin);
+            WriteLine( "{0} hours and {1} minutes" ,hours , remindingMin);
             
 
         //----------------------------------------------------------------------------------------
@@ -26,7 +26,7 @@ class HoursAndMinutes
 
             // int hours = minutes / numOfMinHour;
             // int remindingMin = minutes %numOfMinHour;
-            // WriteLine("{0} hours and {0} minutes" , hours, remindingMin);
+            // WriteLine("{0} hours and {1} minutes" , hours, remindingMin);
 
     }
 }
